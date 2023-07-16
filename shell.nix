@@ -7,6 +7,8 @@
       rustup
       patch
       patchutils
+      pkg-config
+      openssl
     ];
     RUSTC_VERSION = pkgs.lib.readFile ./rust-toolchain;
     # https://github.com/rust-lang/rust-bindgen#environment-variables
